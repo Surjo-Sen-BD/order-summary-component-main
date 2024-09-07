@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" class="h-screen">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="output.css">
+
+  <title>Frontend Mentor | Order summary card</title>
+
+
+</head>
+
+<body
+  class="flex justify-center items-center h-full bg-[#d6e1ff] font-font-family 
+sm:bg-[url('images/pattern-background-desktop.svg')] sm:bg-[#dfe8ff] sm:bg-no-repeat lg:bg-contain sm:bg-left-top md:bg-auto ">
+
+  <div id="content" class="w-auto bg-white rounded-3xl mx-10 drop-shadow-2xl
+  sm:max-w-[500px]">
+    <div id=" container" class="grid text-center ">
+      <img src="images/illustration-hero.svg" class="rounded-t-3xl w-[100%] h-[100%]">
+      <header>
+        <H1 class="font-extrabold text-2xl my-8 text-[#1f2f56] px-8">Order Summary</H1>
+      </header>
+      <p class=" opacity-50 font-extrabold text-[#1f2f56] text-[20px] px-7">You can now listen to millions of songs,
+        audiobooks,
+        and
+        podcasts
+        on any
+        device anywhere you like!</p>
+      <div class="bg-[#f5f7ff] m-7 rounded-xl py-5">
+        <div class="grid grid-cols-4  items-center p- ">
+          <div class="col-span-0 flex justify-center"><img src="images/icon-music.svg" alt=""></div>
+          <div class="col-span-2 text-start pl-2">
+            <h4 class="font-extrabold">Annual Plan</h4>
+            <p class="text-[#1f2f56] opacity-60 font-extrabold">$59.99/year</p>
+          </div>
+          <div><a href=""
+              class="underline text-[#3829e0] font-extrabold hover:text-[#766cf1] hover:no-underline">Change</a></div>
+        </div>
+      </div>
+      <button
+        class="bg-[#3829e0] p-4 rounded-2xl mx-8 mb-5 text-white font-extrabold hover:bg-[#766cf1] drop-shadow-[0_10px_15px_rgba(56,41,224,.5)]"><a
+          href="" class="text-[1.2rem]">Proceed to
+          Payment</a></button>
+      <a class="opacity-50 text-[#1f2f56] font-extrabold text-[1.2rem] hover:text-[#383e55] hover:opacity-100 mb-8"
+        href="">Cancel
+        Order</a>
+    </div>
+  </div>
+</body>
+
+</html>
